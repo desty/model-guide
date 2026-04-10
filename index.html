@@ -235,6 +235,14 @@ footer a:hover { text-decoration: underline; }
   border: 1px solid rgba(148,163,184,0.1); margin: 24px 0;
 }
 </style>
+<!-- Google Analytics (GA4) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4L031NBC3Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-4L031NBC3Z');
+</script>
 </head>
 <body>
 
@@ -907,7 +915,11 @@ flowchart TB
     <a href="https://developer.nvidia.com/blog/how-to-prune-and-distill-llama-3-1-8b-to-an-nvidia-llama-3-1-minitron-4b-model/" target="_blank">NVIDIA Minitron</a> &middot;
     <a href="https://www.microsoft.com/en-us/research/publication/textbooks-are-all-you-need/" target="_blank">Textbooks Are All You Need</a>
   </p>
-  <p style="margin-top:16px;opacity:0.5">2026 LLM Guide</p>
+  <p style="margin-top:16px;display:flex;gap:16px;font-size:0.9rem;">
+    <a href="https://desty.github.io/blog/" target="_blank" style="color:var(--accent-purple);opacity:0.7;">Blog</a>
+    <a href="https://www.linkedin.com/in/desty" target="_blank" style="color:var(--accent-purple);opacity:0.7;">LinkedIn</a>
+  </p>
+  <p style="margin-top:12px;opacity:0.4;font-size:0.85rem;">Built by <a href="https://desty.github.io/" style="color:var(--text);">desty</a> · 2026 LLM Guide</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
