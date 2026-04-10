@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__6b92316d-9556-442b-b573-061e9fff55e4__validate_and_render_mermaid_diagram",
+      "WebSearch",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npx --version)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//usr/local/bin/**)",
+      "Bash(lsof -ti:8082)",
+      "Bash(xargs kill:*)",
+      "Bash(gh auth:*)",
+      "Bash(git --version)",
+      "Bash(git init:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(brew install:*)",
+      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
+      "Bash(gh repo:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(gh api:*)",
+      "Bash(1:*)",
+      "Bash(gh run:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}

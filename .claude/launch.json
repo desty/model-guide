@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "llm-guide",
+      "runtimeExecutable": "/opt/homebrew/bin/python3.12",
+      "runtimeArgs": ["-m", "http.server", "8082", "--directory", "/Users/desty/Documents/_work/guide/model"],
+      "port": 8082,
+      "autoPort": false
+    }
+  ]
+}
